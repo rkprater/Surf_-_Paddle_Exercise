@@ -3,7 +3,7 @@
 
 header {
   background-image: url("oceanbkgrd.jpg");
-  background-size: 800px;
+  background-size: cover;
 }
 
 .pheader {
@@ -12,7 +12,13 @@ header {
   font-weight: normal;
   color: #021C4D;
   text-align: center;
-  margin-top: -11px;
+  margin-top: -13px;
+}
+
+body {
+  margin-top: -16px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 li {
@@ -25,6 +31,9 @@ li {
   font-weight: normal;
   color: #021C4D;
   text-decoration: none;
+  float: left;
+  margin-top: -140px;
+  margin-left: 45px;
 }
 
 .topnav2 {
@@ -34,7 +43,7 @@ li {
   color: #021C4D;
   text-decoration: none;
   float:right;
-  margin-top: -25px;
+  margin-top: -140px;
   padding-right: 155px;
 }
 
@@ -45,32 +54,34 @@ li {
   color: #021C4D;
   text-decoration: none;
   float:right;
-  margin-top: -25px;
+  margin-top: -140px;
   padding-right: 100px;
 }
 
 
 .overlay {
   width: 100%;
-  height: 300px;
+  height: 275px;
   background-color: #1558B0;
   border: none;
   opacity: 0.8;
+  padding-top: 15%;
 }
 
 h1 {
   font-family: Shanti, sans-serif;
   font-weight: 500;
-  font-size:65px;
+  font-size:85px;
   color: white;
   text-align: center;
   padding: 0;
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 h2 {
   font-family: 'Oswald', sans-serif;
-  font-size: 44px;
+  font-size: 64px;
   letter-spacing: .05em;
   margin-bottom: 0;
 }
