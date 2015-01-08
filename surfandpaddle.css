@@ -1,0 +1,93 @@
+@import url(http://fonts.googleapis.com/css?family=Shanti);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+header {
+  background-image: url("oceanbkgrd.jpg");
+  background-size: 800px;
+}
+
+.pheader {
+  font-family: Oswald, sans-serif;
+  font-size: 11px;
+  font-weight: normal;
+  color: #021C4D;
+  text-align: center;
+  margin-top: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.topnav1 {
+  font-family: Oswald, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  color: #021C4D;
+  text-decoration: none;
+}
+
+.topnav2 {
+  font-family: Oswald, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  color: #021C4D;
+  text-decoration: none;
+  float:right;
+  margin-top: -25px;
+  padding-right: 155px;
+}
+
+.topnav3 {
+  font-family: Oswald, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  color: #021C4D;
+  text-decoration: none;
+  float:right;
+  margin-top: -25px;
+  padding-right: 100px;
+}
+
+
+.overlay {
+  width: 100%;
+  height: 300px;
+  background-color: #1558B0;
+  border: none;
+  opacity: 0.8;
+}
+
+h1 {
+  font-family: Shanti, sans-serif;
+  font-weight: 500;
+  font-size:65px;
+  color: white;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 64px;
+  letter-spacing: .05em;
+  margin-bottom: 0;
+}
+
+article {
+  width: 50%;
+  margin-left: 15%;
+  margin-right: 10%;
+}
+
+article li {
+  display: inline;
+}
+
+article ul {
+  text-decoration: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
