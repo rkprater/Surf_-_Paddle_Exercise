@@ -12,7 +12,7 @@ header {
   font-weight: normal;
   color: #021C4D;
   text-align: center;
-  margin-top: 0;
+  margin-top: -11px;
 }
 
 li {
@@ -70,7 +70,7 @@ h1 {
 
 h2 {
   font-family: 'Oswald', sans-serif;
-  font-size: 64px;
+  font-size: 44px;
   letter-spacing: .05em;
   margin-bottom: 0;
 }
