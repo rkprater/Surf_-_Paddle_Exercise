@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Shanti);
 @import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
 
 header {
   background-image: url("oceanbkgrd.jpg");
@@ -13,6 +14,7 @@ header {
   color: #021C4D;
   text-align: center;
   margin-top: -13px;
+  margin-left: 0;
 }
 
 body {
@@ -32,36 +34,35 @@ li {
   color: #021C4D;
   text-decoration: none;
   float: left;
-  margin-top: -140px;
+  margin-top: -165px;
   margin-left: 45px;
 }
 
 .topnav2 {
   font-family: Oswald, sans-serif;
   font-size: 12px;
-  font-weight: normal;
+  font-weight: bold;
   color: #021C4D;
   text-decoration: none;
   float:right;
-  margin-top: -140px;
+  margin-top: -165px;
   padding-right: 155px;
 }
 
 .topnav3 {
   font-family: Oswald, sans-serif;
   font-size: 12px;
-  font-weight: normal;
+  font-weight: bold;
   color: #021C4D;
   text-decoration: none;
   float:right;
-  margin-top: -140px;
+  margin-top: -165px;
   padding-right: 100px;
 }
 
-
 .overlay {
   width: 100%;
-  height: 275px;
+  height: 200px;
   background-color: #1558B0;
   border: none;
   opacity: 0.8;
@@ -76,29 +77,334 @@ h1 {
   text-align: center;
   padding: 0;
   margin-bottom: 0;
-  margin-top: 0;
+  margin-top: -5%;
 }
 
 h2 {
   font-family: 'Oswald', sans-serif;
-  font-size: 64px;
+  font-size: 40px;
   letter-spacing: .05em;
   margin-bottom: 0;
-}
-
-article {
-  width: 50%;
+  line-height: 115%;
+  text-align: left;
+  margin-right: 45%;
   margin-left: 15%;
-  margin-right: 10%;
 }
 
-article li {
+.sipic {
+  border-radius: 100%;
+  width: 15px;
+  height: 17px;
+  margin-left: 15%;
+  margin-top: 0.5%;
+}
+
+.article1 {
+  font-family: 'Open Sans', sans-serif;
+  color: #1558B0;
+  font-size: 12px;
+  margin-top: -1.8%;
+  margin-left: 17%;
+}
+
+.timer {
+  font-family: 'Open Sans', sans-serif;
+  color: gray;
+  font-size: 12px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: gray;
+  font-size: 12px;
+  margin-left: 23%;
+  margin-top: -1.4%;
+}
+
+.article2 {
+  font-family: 'Open Sans', sans-serif;
+  color: gray;
+  font-size: 12px;
+  text-align: justify;
+  margin-left: 15%;
+  margin-right: 50%;
+  margin-bottom: 15px;
+}
+.article3 {
+  font-family: 'Open Sans', sans-serif;
+  color: gray;
+  font-size: 12px;
+  text-align: justify;
+  margin-left: 15%;
+  margin-right: 50%;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 12.9%;
+  color: #1558B0;
+  border-left: 1px solid;
+  border-color: gray;
+  padding-left: 12px;
+  line-height: 2;
+}
+
+.article4 {
+  font-family: 'Open Sans', sans-serif;
+  color: gray;
+  font-size: 12px;
+  text-align: justify;
+  margin-left: 15%;
+  margin-right: 50%;
+  margin-bottom: 15px;
+}
+
+.article5 {
+  font-family: 'Open Sans', sans-serif;
+  color: gray;
+  font-size: 12px;
+  text-align: justify;
+  margin-left: 15%;
+  margin-right: 50%;
+}
+
+.read {
+  background-image: url("readcomments.png");
+  background-size: cover;
+  width: 115px;
+  height: 25px;
+  margin-left: 15%;
+  margin-top: 1%;
+}
+
+.readlater {
+  background-image: url("readlate.png");
+  background-size: cover;
+  width: 113px;
+  height: 23px;
+  margin-left: 25%;
+  margin-top: -2.0%;
+}
+
+.share {
+  background-image: url("sharethispost.png");
+  background-size: cover;
+  width: 115px;
+  height: 23px;
+  margin-left: 35%;
+  margin-top: -1.9%;
+}
+
+.pagebreak {
+  border-top: 1px solid;
+  color: #E6E6E6;
+  margin-top: 2%;
+}
+
+aside {
+  float: right;
+  margin-left: 50%;
+  margin-top: -45%;
+  text-decoration: none;
+}
+.sidebarpic {
+   background-size: cover;
+   border-radius: 100%;
+   width: 75px;
+   height: 75px;
+   margin-left: 40%;
+   margin-top: 10%;
+ }
+.authorinfo {
+  font-family: 'Open Sans', sans-serif;
+  color: #1558B0;
+  margin-top: 1.5%;
+  margin-left: 40%;
+}
+
+.socialnetworks {
+  font-family: 'Open Sans', sans-serif;
+  color: gray;
+  margin-left: 32%;
+  word-spacing: 10px;
+  text-decoration: none;
+
+}
+
+.paddlelady {
+  background-image: url("paddlelady.png");
+  width: 190px;
+  height: 217px;
+  margin-left: 30%;
+  margin-top: 3%;
+}
+
+.sidebarheading {
+  border-left: none;
+  font-size: 14px;
+  font-weight: bolder;
+  margin-left: 28%;
+}
+.sideparagraph {
+  font-family: 'Open Sans', sans-serif;
+  color: gray;
+  font-size: 11px;
+  margin-left: 23%;
+  margin-top: -1.4%;
+  line-height: 1.4;
+  margin-right: 30%;
+}
+
+.surfer {
+  background: linear-gradient(
+    rgba(21, 88, 176, 1),
+    rgba(21, 88, 176, 0.3)),
+  url("williesurf.jpeg");
+  width: 240px;
+  height: 185px;
+  margin-top: 5%;
+  margin-left: 3.5%;
+  border-radius: 5%;
+}
+.surfer:hover {
+  background-image: url("williesurf.jpeg");
+  color: #ffffff;
+}
+
+.surfer:hover p {
+  color: #ffffff;
+  }
+
+.p1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+  text-decoration-style: none;
+  margin-top: 53%;
+  margin-left: 7%;
+  color: black;
+}
+
+.beersample {
+  background: linear-gradient(
+    rgba(21, 88, 176, 1),
+    rgba(21, 88, 176, 0.3)),
+    url("beersample.jpeg");
+    width: 240px;
+    height: 185px;
+    margin-top: -15.3%;
+    margin-left: 25.5%;
+    border-radius: 5%;
+}
+.beersample:hover {
+  background-image: url("beersample.jpeg");
+  color: #ffffff;
+}
+
+.beersample:hover p {
+  color: #ffffff;
+}
+
+.p2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+  text-decoration-style: none;
+  margin-top: 53%;
+  margin-left: 7%;
+  color: black;
+}
+
+.duckdynasty {
+  background: linear-gradient(
+    rgba(21, 88, 176, 1),
+    rgba(21, 88, 176, 0.3)),
+    url("duckdynasty.jpeg");
+    width: 240px;
+    height: 185px;
+    margin-left: 55%;
+    margin-top: -15.3%;
+    border-radius: 5%;
+}
+.duckdynasty:hover {
+  background-image: url("duckdynasty.jpeg");
+  color: #ffffff;
+}
+
+.duckdynasty:hover p {
+  color: #ffffff;
+}
+
+.p3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+  text-decoration-style: none;
+  margin-top: 41%;
+  margin-left: 7%;
+  color: black;
+}
+
+.moonshine {
+  background: linear-gradient(
+    rgba(21, 88, 176, 1),
+    rgba(21, 88, 176, 0.3)),
+    url("moonshine.jpeg");
+    width: 240px;
+    height: 185px;
+    margin-top: -15.3%;
+    margin-left: 77%;
+    border-radius: 5%;
+}
+.moonshine:hover {
+  background-image: url("moonshine.jpeg");
+  color: #ffffff;
+}
+
+.moonshine:hover p {
+  color: #ffffff;
+}
+
+.p4 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+  text-decoration-style: none;
+  margin-top: 54%;
+  margin-left: 7%;
+  color: black;
+}
+
+
+footer {
+  padding-top: 20px;
+}
+
+footer nav {
   display: inline;
 }
 
-article ul {
-  text-decoration: none;
-  padding-left: 0;
-  margin-top: 0;
-  margin-bottom: 40px;
+.copyright p {
+  color: #CFCFD1;
+}
+
+.footernav {
+  background-color: #1A3F7A;
+  padding: 20px 0 20px 0;
+  margin-top: 5%;
+}
+
+footer a, li {
+  color: #CFCFD1;
+}
+
+.copyright {
+  width: auto;
+  height: auto;
+}
+.copyright p {
+  margin-top: -3%;
+  margin-left: 20%;
+}
+
+.copyright img {
+  border-radius: 20%;
+  margin-left: 15%;
+  width: 50px;
 }
