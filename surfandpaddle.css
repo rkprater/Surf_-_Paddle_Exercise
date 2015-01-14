@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
 
 header {
-  background-image: url("oceanbkgrd.jpg");
+  background-image: url("images/oceanbkgrd.jpg");
   background-size: cover;
 }
 
@@ -123,7 +123,7 @@ p {
 
 .article2 {
   font-family: 'Open Sans', sans-serif;
-  color: gray;
+  color: black;
   font-size: 12px;
   text-align: justify;
   margin-left: 15%;
@@ -132,11 +132,15 @@ p {
 }
 .article3 {
   font-family: 'Open Sans', sans-serif;
-  color: gray;
+  color: black;
   font-size: 12px;
   text-align: justify;
   margin-left: 15%;
   margin-right: 50%;
+}
+
+.article3 a {
+  text-decoration-color: #808080;
 }
 
 h3 {
@@ -151,7 +155,7 @@ h3 {
 
 .article4 {
   font-family: 'Open Sans', sans-serif;
-  color: gray;
+  color: black;
   font-size: 12px;
   text-align: justify;
   margin-left: 15%;
@@ -159,9 +163,13 @@ h3 {
   margin-bottom: 15px;
 }
 
+.article4 a {
+  text-decoration: none
+}
+
 .article5 {
   font-family: 'Open Sans', sans-serif;
-  color: gray;
+  color: black;
   font-size: 12px;
   text-align: justify;
   margin-left: 15%;
@@ -169,7 +177,7 @@ h3 {
 }
 
 .read {
-  background-image: url("readcomments.png");
+  background-image: url("images/readcomments.png");
   background-size: cover;
   width: 115px;
   height: 25px;
@@ -178,7 +186,7 @@ h3 {
 }
 
 .readlater {
-  background-image: url("readlate.png");
+  background-image: url("images/readlate.png");
   background-size: cover;
   width: 113px;
   height: 23px;
@@ -187,7 +195,7 @@ h3 {
 }
 
 .share {
-  background-image: url("sharethispost.png");
+  background-image: url("images/sharethispost.png");
   background-size: cover;
   width: 115px;
   height: 23px;
@@ -231,8 +239,13 @@ aside {
 
 }
 
+.socialnetworks a {
+  text-decoration: none;
+  color: gray;
+}
+
 .paddlelady {
-  background-image: url("paddlelady.png");
+  background-image: url("images/paddlelady.png");
   width: 190px;
   height: 217px;
   margin-left: 30%;
@@ -255,19 +268,34 @@ aside {
   margin-right: 30%;
 }
 
+.sectionh2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  font-style: bold;
+  letter-spacing: .05em;
+  text-align: center;
+  margin: 0;
+  color: black
+}
+
 .surfer {
   background: linear-gradient(
     rgba(21, 88, 176, 1),
     rgba(21, 88, 176, 0.3)),
-  url("williesurf.jpeg");
+  url("images/williesurf.jpeg");
   width: 240px;
   height: 185px;
   margin-top: 5%;
   margin-left: 3.5%;
   border-radius: 5%;
 }
+
+.surfer a{
+  text-decoration: none;
+}
+
 .surfer:hover {
-  background-image: url("williesurf.jpeg");
+  background-image: url("images/williesurf.jpeg");
   color: #ffffff;
 }
 
@@ -288,15 +316,20 @@ aside {
   background: linear-gradient(
     rgba(21, 88, 176, 1),
     rgba(21, 88, 176, 0.3)),
-    url("beersample.jpeg");
+    url("images/beersample.jpeg");
     width: 240px;
     height: 185px;
-    margin-top: -15.3%;
+    margin-top: -14.8%;
     margin-left: 25.5%;
     border-radius: 5%;
 }
+
+.beersample a{
+  text-decoration: none;
+}
+
 .beersample:hover {
-  background-image: url("beersample.jpeg");
+  background-image: url("images/beersample.jpeg");
   color: #ffffff;
 }
 
@@ -317,15 +350,20 @@ aside {
   background: linear-gradient(
     rgba(21, 88, 176, 1),
     rgba(21, 88, 176, 0.3)),
-    url("duckdynasty.jpeg");
+    url("images/duckdynasty.jpeg");
     width: 240px;
     height: 185px;
     margin-left: 55%;
-    margin-top: -15.3%;
+    margin-top: -14.9%;
     border-radius: 5%;
 }
+
+.duckdynasty a {
+  text-decoration: none;
+}
+
 .duckdynasty:hover {
-  background-image: url("duckdynasty.jpeg");
+  background-image: url("images/duckdynasty.jpeg");
   color: #ffffff;
 }
 
@@ -346,15 +384,20 @@ aside {
   background: linear-gradient(
     rgba(21, 88, 176, 1),
     rgba(21, 88, 176, 0.3)),
-    url("moonshine.jpeg");
+    url("images/moonshine.jpeg");
     width: 240px;
     height: 185px;
-    margin-top: -15.3%;
+    margin-top: -14.8%;
     margin-left: 77%;
     border-radius: 5%;
 }
+
+.moonshine a{
+  text-decoration: none;
+}
+
 .moonshine:hover {
-  background-image: url("moonshine.jpeg");
+  background-image: url("images/moonshine.jpeg");
   color: #ffffff;
 }
 
@@ -407,4 +450,128 @@ footer a, li {
   border-radius: 20%;
   margin-left: 15%;
   width: 50px;
+}
+
+@media screen and (max-width: 320px) {
+
+.overlay {
+  width: 100%;
+  height: auto;
+}
+
+.topnav1, .topnav2, .topnav3 {
+  float: none;
+  margin: auto;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+h1{
+  font-size: 30px;
+  margin: auto;
+}
+
+.pheader {
+  margin: auto;
+  font-size: 8px;
+}
+
+  header {
+    background-image: url("images/oceanbkgrd.jpg");
+    background-size: cover;
+  }
+
+body {
+  margin: auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+h2 {
+  font-size: 100%;
+}
+
+.article1 {
+  font-size: 12px;
+  margin-top: -1%;
+  margin-left: 15%;
+}
+
+p {
+  font-size: 12px;
+  margin-left: 15%;
+  margin-top: 1%;
+}
+
+.timer {
+  font-size: 12px;
+}
+
+.article2, .article3, .article4, .article5 {
+  font-size: 12px;
+  margin-bottom: 5%;
+  margin-right: 15%;
+}
+
+.read {
+  margin-left: 15%;
+}
+
+.readlater {
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+.share {
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+aside {
+  float: none;
+  margin: auto;
+}
+
+.sidebarpic, .authorinfo {
+  margin-left: 30%
+}
+
+.socialnetworks {
+  margin-left: 15%
+}
+
+.paddlelady {
+  margin-left: 15%
+}
+
+.sidebarheading {
+  margin-left: 10%;
+}
+
+.sideparagraph {
+  font-size: 12px;
+  margin-bottom: 5%;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+.sectionh2 {
+  font-size: 100%;
+}
+
+.beersample, .duckdynasty, .moonshine, .copyright img {
+  margin-top: 5%;
+  margin-left: 2%;
+}
+
+.copyright p{
+  font-size: 10px;
+  margin-top: -10%;
+  padding-left: 3%;
+  margin-right: 15%;
+}
+
+
 }
