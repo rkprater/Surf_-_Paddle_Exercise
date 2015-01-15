@@ -2,6 +2,8 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
 
+/*Top of page with background, overlay, and nav bar*/
+
 header {
   background-image: url("images/oceanbkgrd.jpg");
   background-size: cover;
@@ -79,6 +81,7 @@ h1 {
   margin-bottom: 0;
   margin-top: -5%;
 }
+/*Begin section and article content*/
 
 h2 {
   font-family: 'Oswald', sans-serif;
@@ -209,6 +212,8 @@ h3 {
   margin-top: 2%;
 }
 
+/*Sidebar with author info*/
+
 aside {
   float: right;
   margin-left: 50%;
@@ -221,7 +226,7 @@ aside {
    width: 75px;
    height: 75px;
    margin-left: 40%;
-   margin-top: 10%;
+   margin-top: 15%;
  }
 .authorinfo {
   font-family: 'Open Sans', sans-serif;
@@ -267,6 +272,7 @@ aside {
   line-height: 1.4;
   margin-right: 30%;
 }
+/*Bottom pictures and hover*/
 
 .sectionh2 {
   font-family: 'Oswald', sans-serif;
@@ -387,7 +393,7 @@ aside {
     url("images/moonshine.jpeg");
     width: 240px;
     height: 185px;
-    margin-top: -14.8%;
+    margin-top: -14.4%;
     margin-left: 77%;
     border-radius: 5%;
 }
@@ -414,6 +420,7 @@ aside {
   color: black;
 }
 
+/*Begin footer and bottom copyright info*/
 
 footer {
   padding-top: 20px;
@@ -452,17 +459,21 @@ footer a, li {
   width: 50px;
 }
 
+/*responsive with 320px breakpoint*/
+
 @media screen and (max-width: 320px) {
 
 .overlay {
   width: 100%;
   height: auto;
+  padding-top: 2%;
+  padding-bottom:5%;
 }
 
 .topnav1, .topnav2, .topnav3 {
   float: none;
   margin: auto;
-  font-size: 12px;
+  font-size: 65%;
   font-weight: bold;
 }
 
@@ -476,20 +487,12 @@ h1{
   font-size: 8px;
 }
 
-  header {
-    background-image: url("images/oceanbkgrd.jpg");
-    background-size: cover;
-  }
-
-body {
-  margin: auto;
-}
-
-li {
-  list-style-type: none;
-}
 
 h2 {
+  font-size: 100%;
+}
+
+h3 {
   font-size: 100%;
 }
 
@@ -535,15 +538,15 @@ aside {
 }
 
 .sidebarpic, .authorinfo {
-  margin-left: 30%
+  margin-left: 30%;
 }
 
 .socialnetworks {
-  margin-left: 15%
+  margin-left: 15%;
 }
 
 .paddlelady {
-  margin-left: 15%
+  margin-left: 15%;
 }
 
 .sidebarheading {
@@ -573,5 +576,288 @@ aside {
   margin-right: 15%;
 }
 
+
+  }
+
+/*responsive with 321px-560px breakpoint*/
+
+@media screen and (min-width: 321px) and (max-width: 560px) {
+
+
+.topnav1, .topnav2, .topnav3 {
+    float: none;
+    margin: auto;
+    font-size: 60%;
+    font-weight: bold;
+}
+
+h1 {
+  font-size: 200%;
+}
+
+.overlay {
+  padding-top: 5%;
+  height: 300%
+}
+
+.pheader {
+  font-family: Oswald, sans-serif;
+  font-size: 45%;
+  margin-top: 0;
+}
+
+  /*Begin section and article content*/
+
+h2 {
+  font-size:100%;
+}
+
+.sipic {
+  margin-left: 15%;
+}
+
+.article1 {
+  font-size: 45%;
+  margin-left: 15%;
+  margin-top: 0;
+}
+
+p{
+  font-size: 45%;
+  margin-left: 15%;
+  margin-top: 0;
+}
+
+.timer {
+  font-size: 45%;
+}
+
+.article2, .article3, .article4, .article5 {
+  font-size: 75%;
+  margin-bottom: 5%;
+  margin-right: 15%;
+}
+
+h3 {
+  font-size:75%;
+}
+
+.read {
+  margin-left: 15%;
+}
+
+.readlater {
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+.share {
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+aside {
+  float: none;
+  margin: auto;
+}
+
+.sidebarpic{
+  margin-left: 30%;
+  margin-top: 10%;
+}
+
+.authorinfo {
+  margin-left: 32%;
+}
+
+.socialnetworks {
+  margin-left: 24%;
+}
+
+.paddlelady {
+  margin-left: 17%;
+}
+
+.sidebarheading {
+  margin-left: 14%;
+}
+
+.sideparagraph {
+  font-size: 75%;
+  margin-bottom: 5%;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+.sectionh2 {
+  font-size: 100%;
+}
+
+.surfer, .beersample, .duckdynasty, .moonshine, .copyright img {
+  margin-top: 5%;
+  margin-left: 20%;
+}
+
+.copyright img {
+  margin-top: 0;
+  margin-left: 7%;
+  margin-bottom: 5%;
+}
+
+.copyright p{
+  font-size: 65%;
+  padding-left: 10%;
+  margin-top: -%;
+  margin-bottom: 0;
+  margin-top: -10%;
+}
+
+}
+
+/*responsive with 561px-800px breakpoint*/
+
+@media screen and (min-width: 561px) and (max-width: 800px) {
+
+
+  .topnav1 {
+    float: none;
+    margin: auto;
+    font-size: 75%;
+    font-weight: bold;
+  }
+
+  .topnav2 {
+    font-size: 75%;
+    font-weight: bold;
+    float: right;
+    margin-top: -7%;
+    padding-right: 25%;
+  }
+
+  .topnav3 {
+    float: right;
+    font-size: 75%;
+    font-weight: bold;
+    margin-top: -7%;
+    padding-right: 15%
+  }
+
+  h1 {
+    font-size: 300%;
+    margin-top: 2%;
+  }
+
+  .overlay {
+    padding-top: 5%;
+    height: 300%
+  }
+
+  .pheader {
+    font-family: Oswald, sans-serif;
+    font-size: 45%;
+    margin-top: 0;
+  }
+
+  /*Begin section and article content*/
+
+  h2 {
+    font-size:150%;
+  }
+
+  .sipic {
+    margin-left: 15%;
+  }
+
+  .article1 {
+    font-size: 65%;
+    margin-left: 15%;
+    margin-top: 0;
+  }
+
+  p{
+    font-size: 65%;
+    margin-left: 15%;
+    margin-top: 0;
+  }
+
+  .timer {
+    font-size: 65%;
+  }
+
+  .article2, .article3, .article4, .article5 {
+    font-size: 85%;
+    margin-bottom: 5%;
+    margin-right: 15%;
+  }
+
+  h3 {
+    font-size:100%;
+  }
+
+  .read {
+    margin-left: 15%;
+  }
+
+  .readlater {
+    margin-left: 15%;
+    margin-top: 5%;
+  }
+
+  .share {
+    margin-left: 15%;
+    margin-top: 5%;
+  }
+
+  aside {
+    float: none;
+    margin: auto;
+  }
+
+  .sidebarpic{
+    margin-left: 30%;
+    margin-top: 10%;
+  }
+
+  .authorinfo {
+    margin-left: 32%;
+  }
+
+  .socialnetworks {
+    margin-left: 25%;
+  }
+
+  .paddlelady {
+    margin-left: 23%;
+  }
+
+  .sidebarheading {
+    margin-left: 21%;
+  }
+
+  .sideparagraph {
+    font-size: 80%;
+    margin-bottom: 5%;
+    margin-right: 52%;
+  }
+
+  .sectionh2 {
+    font-size: 150%;
+  }
+
+  .surfer, .beersample, .duckdynasty, .moonshine, .copyright img {
+    margin-top: 5%;
+    margin-left: 20%;
+  }
+
+  .copyright img {
+    margin-top: 0;
+    margin-left: 7%;
+    margin-bottom: 9%;
+  }
+
+  .copyright p{
+    font-size: 75%;
+    margin-top: -13%;
+  }
 
 }
