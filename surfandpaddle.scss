@@ -10,6 +10,11 @@ $secondfont: Open Sans, sans-serif;
   border-radius: $radius;
 }
 
+@mixin text-decoration($textdeco) {
+  text-decoration: ($textdeco)
+}
+
+
 /*Top of page with background, overlay, and nav bar*/
 
 
@@ -43,7 +48,7 @@ li {
   font-size: 12px;
   font-weight: normal;
   color: #021C4D;
-  text-decoration: none;
+  @include text-decoration (none);
   float: left;
   margin-top: -165px;
   margin-left: 45px;
@@ -54,7 +59,7 @@ li {
   font-size: 12px;
   font-weight: bold;
   color: #021C4D;
-  text-decoration: none;
+  @include text-decoration (none);
   float:right;
   margin-top: -165px;
   padding-right: 155px;
@@ -65,7 +70,7 @@ li {
   font-size: 12px;
   font-weight: bold;
   color: #021C4D;
-  text-decoration: none;
+  @include text-decoration (none);
   float:right;
   margin-top: -165px;
   padding-right: 100px;
@@ -176,7 +181,7 @@ h3 {
 }
 
 .article4 a {
-  text-decoration: none
+  @include text-decoration (none);
 }
 
 .article5 {
@@ -227,7 +232,7 @@ aside {
   float: right;
   margin-left: 50%;
   margin-top: -45%;
-  text-decoration: none;
+  @include text-decoration (none);
 }
 .sidebarpic {
   background-size: cover;
@@ -249,12 +254,12 @@ aside {
   color: gray;
   margin-left: 32%;
   word-spacing: 10px;
-  text-decoration: none;
+  @include text-decoration (none);
 
 }
 
 .socialnetworks a {
-  text-decoration: none;
+  @include text-decoration (none);
   color: gray;
 }
 
@@ -306,7 +311,7 @@ aside {
 }
 
 .surfer a{
-  text-decoration: none;
+  @include text-decoration (none);
 }
 
 .surfer:hover {
@@ -340,7 +345,7 @@ aside {
 }
 
 .beersample a{
-  text-decoration: none;
+  @include text-decoration (none);
 }
 
 .beersample:hover {
@@ -374,7 +379,7 @@ aside {
 }
 
 .duckdynasty a {
-  text-decoration: none;
+  @include text-decoration (none);
 }
 
 .duckdynasty:hover {
@@ -408,7 +413,7 @@ aside {
 }
 
 .moonshine a{
-  text-decoration: none;
+  @include text-decoration (none);
 }
 
 .moonshine:hover {
