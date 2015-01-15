@@ -546,11 +546,11 @@ footer a, li {
   .topnav2 {
     font-size: 75%;
     font-weight: bold;
-    float: right;
+    float: none;
     margin-top: -7%;
     padding-right: 25%; }
   .topnav3 {
-    float: right;
+    float: none;
     font-size: 75%;
     font-weight: bold;
     margin-top: -7%;

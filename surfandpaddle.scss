@@ -14,6 +14,9 @@ $secondfont: Open Sans, sans-serif;
   text-decoration: ($textdeco)
 }
 
+@mixin float($float) {
+  float: ($float)
+}
 
 /*Top of page with background, overlay, and nav bar*/
 
@@ -49,7 +52,7 @@ li {
   font-weight: normal;
   color: #021C4D;
   @include text-decoration (none);
-  float: left;
+  @include float(left);
   margin-top: -165px;
   margin-left: 45px;
 }
@@ -60,7 +63,7 @@ li {
   font-weight: bold;
   color: #021C4D;
   @include text-decoration (none);
-  float:right;
+  @include float(right);
   margin-top: -165px;
   padding-right: 155px;
 }
@@ -71,7 +74,7 @@ li {
   font-weight: bold;
   color: #021C4D;
   @include text-decoration (none);
-  float:right;
+  @include float(right);
   margin-top: -165px;
   padding-right: 100px;
 }
@@ -229,7 +232,7 @@ h3 {
 /*Sidebar with author info*/
 
 aside {
-  float: right;
+  @include float(right);
   margin-left: 50%;
   margin-top: -45%;
   @include text-decoration (none);
@@ -485,7 +488,7 @@ footer a, li {
   }
 
   .topnav1, .topnav2, .topnav3 {
-    float: none;
+    @include float(none);
     margin: auto;
     font-size: 65%;
     font-weight: bold;
@@ -547,7 +550,7 @@ footer a, li {
   }
 
   aside {
-    float: none;
+    @include float(none);
     margin: auto;
   }
 
@@ -599,7 +602,7 @@ footer a, li {
 
 
   .topnav1, .topnav2, .topnav3 {
-    float: none;
+    @include float(none);
     margin: auto;
     font-size: 60%;
     font-weight: bold;
@@ -671,7 +674,7 @@ footer a, li {
   }
 
   aside {
-    float: none;
+    @include float(none);
     margin: auto;
   }
 
@@ -734,7 +737,7 @@ footer a, li {
 
 
   .topnav1 {
-    float: none;
+    @include float(none);
     margin: auto;
     font-size: 75%;
     font-weight: bold;
@@ -743,13 +746,13 @@ footer a, li {
   .topnav2 {
     font-size: 75%;
     font-weight: bold;
-    float: right;
+    @include float(none);
     margin-top: -7%;
     padding-right: 25%;
   }
 
   .topnav3 {
-    float: right;
+    @include float(none);
     font-size: 75%;
     font-weight: bold;
     margin-top: -7%;
@@ -823,7 +826,7 @@ footer a, li {
   }
 
   aside {
-    float: none;
+    @include float(none);
     margin: auto;
   }
 
