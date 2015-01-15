@@ -746,13 +746,13 @@ footer a, li {
   .topnav2 {
     font-size: 75%;
     font-weight: bold;
-    @include float(none);
+    @include float(right);
     margin-top: -7%;
     padding-right: 25%;
   }
 
   .topnav3 {
-    @include float(none);
+    @include float(right);
     font-size: 75%;
     font-weight: bold;
     margin-top: -7%;
